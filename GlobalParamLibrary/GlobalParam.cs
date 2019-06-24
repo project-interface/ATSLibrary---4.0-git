@@ -114,7 +114,7 @@ namespace GlobalParamLibrary
     {
         List<sATS_Platform> process(byte[] dataArry,ref IConfig IConfigInterface);
     }
- 
+    // 接口
     public interface IComm
     {
         event recvCommChangedHandler recvCommChanged;
